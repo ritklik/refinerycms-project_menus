@@ -1,0 +1,28 @@
+nb:
+  refinery:
+    plugins:
+      project_menus:
+        title: Project Menus
+    project_menus:
+      admin:
+        project_menus:
+          actions:
+            create_new: Lag en ny Project Menu
+            reorder: Endre rekkefølgen på Project Menus
+            reorder_done: Ferdig å endre rekkefølgen Project Menus
+          records:
+            title: Project Menus
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Project Menus enda. Klikk på "Lag en ny Project Menu" for å legge til din første project menu.
+          project_menu:
+            view_live_html: Vis hvordan denne project menu ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne project menu
+            delete: Fjern denne project menu permanent
+      project_menus:
+        show:
+          other: Andre Project Menus
+  activerecord:
+    attributes:
+      'refinery/project_menus/project_menu':
+        name: Name
+        category_code: Category Code

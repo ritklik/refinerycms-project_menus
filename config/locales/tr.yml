@@ -1,0 +1,28 @@
+tr:
+  refinery:
+    plugins:
+      project_menus:
+        title: Project Menus
+    project_menus:
+      admin:
+        project_menus:
+          actions:
+            create_new: Yeni Ekle Project Menu
+            reorder: Tekrar sirala Project Menus
+            reorder_done: Tekrar siralama tamamlandiProject Menus
+          records:
+            title: Project Menus
+            sorry_no_results: Uzgunum! Herhangi bir sonuc bulunamadi.
+            no_items_yet: Herhangi bir Project Menus yok henuz.  Tikla "Yeni Ekle Project Menu" eklemek senin ilk project menu.
+          project_menu:
+            view_live_html: Bunu canlu project menu goruntule <br/><em>(yeni bir pencerede acar)</em>
+            edit: Bunu Duzenle project menu
+            delete: Bunu Sil project menu sonsuza dek
+      project_menus:
+        show:
+          other: Diger Project Menus
+  activerecord:
+    attributes:
+      'refinery/project_menus/project_menu':
+        name: Name
+        category_code: Category Code

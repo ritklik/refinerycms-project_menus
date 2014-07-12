@@ -1,0 +1,28 @@
+nl:
+  refinery:
+    plugins:
+      project_menus:
+        title: Project Menus
+    project_menus:
+      admin:
+        project_menus:
+          actions:
+            create_new: Nieuwe Project Menu toevoegen
+            reorder: De volgorde van de Project Menus wijzigen
+            reorder_done: Klaar met het wijzingen van de van de Project Menu-volgorde
+          records:
+            title: Project Menus
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Project Menus. Druk op 'Nieuwe Project Menu toevoegen' om de eerste toe te voegen.
+          project_menu:
+            view_live_html: Deze project menu op de website bekijken <br/><em>(opent in een nieuw venster)</em>
+            edit: Bewerk deze project menu
+            delete: Deze project menu definitief verwijderen
+      project_menus:
+        show:
+          other: Andere Project Menus
+  activerecord:
+    attributes:
+      'refinery/project_menus/project_menu':
+        name: Name
+        category_code: Category Code

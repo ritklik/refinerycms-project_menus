@@ -1,0 +1,30 @@
+zh-CN:
+  refinery:
+    plugins:
+      project_menus:
+        title: Project Menus
+    project_menus:
+      admin:
+        project_menus:
+          actions:
+            create_new: 建立新的 Project Menu
+            reorder: 对 Project Menus 重新排序
+            reorder_done: 对 Project Menus 的重新排序结束
+          records:
+            title: Project Menus
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Project Menus yet. Click "Add New Project Menu" to add your first project menu.
+            no_items_yet: 目前没有 Project Menus . 点击 "Add New Project Menu" 创建一个project menu.
+          project_menu:
+            view_live_html: 查看 project menu 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 project menu
+            delete: 永久删除 project menu
+      project_menus:
+        show:
+          other: 其他 Project Menus
+  activerecord:
+    attributes:
+      'refinery/project_menus/project_menu':
+        name: Name
+        category_code: Category Code

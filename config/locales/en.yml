@@ -1,0 +1,28 @@
+en:
+  refinery:
+    plugins:
+      project_menus:
+        title: Project Menus
+    project_menus:
+      admin:
+        project_menus:
+          actions:
+            create_new: Add New Project Menu
+            reorder: Reorder Project Menus
+            reorder_done: Done Reordering Project Menus
+          records:
+            title: Project Menus
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Project Menus yet. Click "Add New Project Menu" to add your first project menu.
+          project_menu:
+            view_live_html: View this project menu live <br/><em>(opens in a new window)</em>
+            edit: Edit this project menu
+            delete: Remove this project menu forever
+      project_menus:
+        show:
+          other: Other Project Menus
+  activerecord:
+    attributes:
+      'refinery/project_menus/project_menu':
+        name: Name
+        category_code: Category Code

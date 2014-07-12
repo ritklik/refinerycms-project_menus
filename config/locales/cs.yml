@@ -1,0 +1,28 @@
+cs:
+  refinery:
+    plugins:
+      project_menus:
+        title: Project Menus
+    project_menus:
+      admin:
+        project_menus:
+          actions:
+            create_new: Přidat Project Menu
+            reorder: Řadit Project Menus
+            reorder_done: Konec řazení Project Menus
+          records:
+            title: Project Menus
+            sorry_no_results: Litujeme, ale nebyly nalezny žádné výsledky.
+            no_items_yet: Zatím nebyly vytvořeny žádné Project Menus. Zvolte "Přidat Project Menu" pro přidání prvního project menu.
+          project_menu:
+            view_live_html: Zobrazit náhled project menu<br/><em>(otevře se v novém okně)</em>
+            edit: Upravit project menu
+            delete: Smazat project menu
+      project_menus:
+        show:
+          other: Další Project Menus
+  activerecord:
+    attributes:
+      'refinery/project_menus/project_menu':
+        name: Name
+        category_code: Category Code

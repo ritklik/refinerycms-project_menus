@@ -1,0 +1,29 @@
+es:
+  refinery:
+    plugins:
+      project_menus:
+        title: Project Menus
+#        article: masculino/femenino
+    project_menus:
+      admin:
+        project_menus:
+          actions:
+            create_new: Crear nuevo project menu
+            reorder: Reordenar project menus
+            reorder_done: Reordenación de project menus completada
+          records:
+            title: Project Menus
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay project menus todavía. Pulsa en "Crear nuevo Project Menu" para crear tu primer project menu.
+          project_menu:
+            view_live_html: Ver este project menu como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este project menu
+            delete: Borrar este project menu para siempre
+      project_menus:
+        show:
+          other: Otros project menus
+  activerecord:
+    attributes:
+      'refinery/project_menus/project_menu':
+        name: Name
+        category_code: Category Code

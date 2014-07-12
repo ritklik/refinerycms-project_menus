@@ -1,0 +1,28 @@
+fr:
+  refinery:
+    plugins:
+      project_menus:
+        title: Project Menus
+    project_menus:
+      admin:
+        project_menus:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Project Menu
+            reorder: Réordonner les Project Menus
+            reorder_done: Fin de réordonnancement des Project Menus
+          records:
+            title: Project Menus
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Project Menu. Cliquer sur "Créer un(e) nouve(au/l/lle) Project Menu" pour créer votre premi(er/ère) project menu.'
+          project_menu:
+            view_live_html: Voir ce(t/tte) project menu <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) project menu
+            delete: Supprimer définitivement ce(t/tte) project menu
+      project_menus:
+        show:
+          other: Autres Project Menus
+  activerecord:
+    attributes:
+      'refinery/project_menus/project_menu':
+        name: Name
+        category_code: Category Code
